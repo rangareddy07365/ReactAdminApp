@@ -1,0 +1,7 @@
+.adminLayoutDiv{
+    display: flex;
+    flex-direction: column;
+}
+.mainSectionDiv{
+    display: flex;
+}

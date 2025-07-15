@@ -1,0 +1,13 @@
+.footerSectionDiv {
+  background-color: #447d9b;
+  color: black;
+  font-size: 400%;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-indent: 10px;
+  text-shadow: 5px 5px #d7d7d7;
+  height: 10vh;
+  position: fixed;
+  bottom: 0;
+  left:0;
+  width: 100%;
+}

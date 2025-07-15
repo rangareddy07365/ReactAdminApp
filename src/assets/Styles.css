@@ -1,0 +1,42 @@
+/* Make entire layout take full viewport height */
+.adminLayoutDiv {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Header & Footer have fixed height */
+.headerSectionDiv {
+  background-color: #f5f5f5;
+  padding: 10px;
+  height: 60px;
+}
+
+.footerSectionDiv {
+  background-color: #f5f5f5;
+  padding: 10px;
+  height: 40px;
+}
+
+/* Main content area (between header and footer) */
+.-mainSectionDiv {
+  display: flex;
+  flex-direction: row;
+  flex: 1; /* Take up remaining height */
+  overflow: hidden; /* Prevent outer scrolling */
+}
+
+/* Sidebar takes full height of content area */
+.sidepanelSectionDiv {
+  width: 200px;
+  background-color: #ddd;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+/* ContentPanel is scrollable */
+.contentpanelSectionDiv {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}

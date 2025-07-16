@@ -2,12 +2,14 @@
   writing-mode: vertical-lr;
   text-align: center;
   vertical-align: middle;
-  background-color: #273F4F;
-  color: black;
-  font-size: 650%;
+  /* background-color: #273F4F;
+  color: black; */
+  background-color: var(--sidebar-bg);
+  color: var(--sidebar-text);
+  /* font-size: 650%; */
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   text-indent: 10px;
-  text-shadow: 5px -5px #D7D7D7;
+  /* text-shadow: 5px -5px #D7D7D7; */
   height: 80vh;
   position: fixed;
   top:10vh;

@@ -1,11 +1,3 @@
-.adminLayoutDiv{
-    display: flex;
-    flex-direction: column;
-}
-.mainSectionDiv{
-    display: flex;
-}
-
 :root {
   --header-bg: #f8f9fa;
   --header-text: #222;
@@ -18,9 +10,6 @@
 
   --footer-bg: #f8f9fa;
   --footer-text: #444;
-
-  --themeButton-bg: #2c2f33;
-  --themeButton-text: #f1f1f1;
 
   /* --link-color: #007bff; */
 }
@@ -37,9 +26,6 @@
 
   --footer-bg: #2c2f33;
   --footer-text: #bbb;
-
-  --themeButton-bg: #f8f9fa;
-  --themeButton-text: #222;
 
   /* --link-color: #4da3ff; */
 }

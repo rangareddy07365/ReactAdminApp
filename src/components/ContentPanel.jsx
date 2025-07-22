@@ -1,6 +1,5 @@
 import React from "react";
 import "../assets/ContentPanel.css";
-// import "../assets/Styles.css";
 
 const ContentPanel = () => {
   return (

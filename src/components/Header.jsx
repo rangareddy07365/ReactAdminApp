@@ -1,6 +1,5 @@
 import React from "react";
 import "../assets/Header.css";
-// import "../assets/Styles.css";
 
 const Header = ({toggleTheme, isDark}) => {
     return(

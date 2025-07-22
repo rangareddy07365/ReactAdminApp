@@ -1,15 +1,11 @@
 .headerSectionDiv {
-  /* background-color: #fe7743;
-  color: black; */
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: var(--header-bg);
   color: var(--header-text);
-  /* font-size: 400%; */
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   text-indent: 10px;
-  /* text-shadow: 5px 5px #D7D7D7; */
   height: 10vh;
   position: fixed;
   top: 0;

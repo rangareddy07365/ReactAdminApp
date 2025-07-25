@@ -13,8 +13,21 @@
   width: 100%;
 }
 
+.headerRightSectionDiv{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+}
+
 .themeButton{
   margin: 20px;
   background-color: var(--themeButton-bg);
   color: var(--themeButton-text);
+}
+
+.digitalClock{
+  margin: 20px;
+  /* background-color: var(--themeButton-bg);
+  color: var(--themeButton-text); */
+  color: var(--header-text);
 }
